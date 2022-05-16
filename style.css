@@ -1,0 +1,74 @@
+
+
+.navbar .container-fluid{
+    width: 1424px;
+    /* padding: 3px; */
+    /* background-color: #d2d2d2; */
+    box-shadow: 2px 2px 2px 2px #d2d2d2;
+}
+
+.sidebar {
+    margin-top: 50px;
+    padding: 0;
+    width: 200px;
+    background-color: #d2d2d2;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+  .sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  .sidebar a.active2 {
+    background-color: #04AA6D;
+    color: white;
+  }
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+.content .form p a{
+    padding: 10px;
+    margin-top:65px;
+    margin-left: 10px;
+
+}
+.content .form .collapse .card{
+    background-color: #555 ;
+    color: white;
+}
+.content .form .collapse .card label{
+    font-size: larger;
+    font-weight: bold;
+} 
+.navigation .container-fluid a{
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    font-size: 20px;
+}

@@ -1,0 +1,121 @@
+body {
+    /* background-color: rgb(179, 36, 36); */
+    background-image:url('background.jpg') ;
+
+
+}
+#container1 form {
+    margin-top: 10em;
+    margin-left: 14em;
+    margin-right: 14em;
+    padding: 30px;
+    box-shadow: 10px 10px 10px 10px #1f1c1c65;
+}
+.container form {
+    margin-top: 3.5em;
+    margin-left: 14em;
+    margin-right: 14em;
+    padding: 30px;
+    box-shadow: 10px 10px 10px 10px #1f1c1c65;
+}
+.nav {
+    height: 650px;
+    background-color: #333;
+    background-image: url('3.jpg');
+    background-size: cover;
+    border-bottom: 5px solid #333;
+    border-bottom-left-radius: 180px;
+    opacity: 85%;
+    
+}
+.topnav {
+    display: flex;
+    background-color: #333;
+    border-top-right-radius:35px ;
+    border-bottom-right-radius:35px;
+    overflow: hidden;
+    width: 59.5%;
+    height: 50px;
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    justify-items: center;
+    padding: 14px 16px;
+    margin-left:20px ;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 75px;
+}
+.topnav a.hover {
+    background-color: #333;
+    color: white;
+}
+.nav .main_content{
+    margin-left:30px ;
+    
+}
+.nav .main_content h1{
+    margin-left:30px ;
+    /* text-align: center;    */
+}
+.nav .main_content span{
+    color: #6782ad;;
+    font-size: larger;
+    font-weight: bold;
+}
+.nav .main_content p{
+    font-size: 15px;
+    line-height: 10px;
+}
+
+.form p a{
+    padding: 10px;
+    margin-top:35px;
+    margin-left: 55px;
+}
+.form .collapse .card{
+    background-color: #95a3a4 ;
+}
+.form .collapse .card label{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.row .col {
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 33.3%;
+    display:flex;
+    border: 2px solid white;
+    background-color: rgb(174, 194, 214);
+    box-shadow: 3px 3px 3px 3px rgb(64, 65, 66);
+    padding: 10px;
+
+    
+}
+.row .col .job{
+    width: 33.3%;
+}
+.row .col .job h3{
+    text-align: center;
+    /* margin-left: 6em; */
+    width: 33.3;
+}
+.row .col .job h4{
+    text-align: center;
+    margin-left: 6em;
+}
+.row .col .job  button{
+    /* padding: 10px;
+    margin-top:65px; */
+    margin-left: 5pxspx;
+
+}
